@@ -45,10 +45,10 @@
         
         this.load.script('webfont', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
         
-        this.load.spritesheet('ok_sheet'        , '/assets/ok_sheet.png', { frameWidth: 128, frameHeight: 48 });        
-        this.load.spritesheet('about_sheet'     , '/assets/about_sheet.png', { frameWidth: 128, frameHeight: 48 });
-        this.load.spritesheet('sett_sheet'      , '/assets/settings_sheet.png', { frameWidth: 192, frameHeight: 64 });
-        this.load.spritesheet('play_sheet'      , '/assets/play_sheet.png', { frameWidth: 128, frameHeight: 64 });  
+        this.load.spritesheet('ok_sheet'        , 'assets/ok_sheet.png', { frameWidth: 128, frameHeight: 48 });        
+        this.load.spritesheet('about_sheet'     , 'assets/about_sheet.png', { frameWidth: 128, frameHeight: 48 });
+        this.load.spritesheet('sett_sheet'      , 'assets/settings_sheet.png', { frameWidth: 192, frameHeight: 64 });
+        this.load.spritesheet('play_sheet'      , 'assets/play_sheet.png', { frameWidth: 128, frameHeight: 64 });  
         
         this.load.audio('menu_music', [
         'assets/audio/menu.ogg'

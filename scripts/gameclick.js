@@ -18,7 +18,7 @@
         
         this.load.script('webfont' , 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
         
-        this.load.spritesheet('clicktoplay' , '/assets/clicktoplay_sheet.png', { frameWidth: 192, frameHeight: 64 }); 
+        this.load.spritesheet('clicktoplay' , 'assets/clicktoplay_sheet.png', { frameWidth: 192, frameHeight: 64 }); 
         
         this.load.spritesheet('arrow_down', 'assets/arrow_down.png', { frameWidth: 40, frameHeight: 80, endFrame: 5 });
                

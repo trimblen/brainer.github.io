@@ -47,15 +47,15 @@
         
         //this.load.baseURL = window.location;
         
-        this.load.spritesheet("levelthumb", "/assets/levelthumb.png", {
+        this.load.spritesheet("levelthumb", "assets/levelthumb.png", {
             frameWidth: 60,
             frameHeight: 60
         });
                
-        this.load.image("levelpages", "/assets/levelpages.png");
-        this.load.image('transp' , 'assets/bg.png');
+        this.load.image("levelpages", "assets/levelpages.png");
+        this.load.image('transp'    , 'assets/bg.png');
         
-        this.load.script('webfont', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
+        this.load.script('webfont'  , 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
         
         this.load.audio('menu_m', [
         'assets/audio/menutitle.ogg'

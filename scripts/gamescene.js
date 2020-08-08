@@ -128,30 +128,30 @@ class GameScene extends Phaser.Scene {
 		     
 		//this.load.spritesheet('diamonds', '/assets/diamonds32x24x5.png', { frameWidth: 32, frameHeight: 24 });
         
-        this.load.spritesheet('diamonds_1'    , '/assets/shapes/primary/sprlv1.png', { frameWidth: 48, frameHeight: 48 });        
-        this.load.spritesheet('diamonds_2'    , '/assets/shapes/primary/sprlv2.png', { frameWidth: 48, frameHeight: 48 });
-        this.load.spritesheet('diamonds_3'    , '/assets/shapes/primary/sprlv3.png', { frameWidth: 48, frameHeight: 48 });
+        this.load.spritesheet('diamonds_1'    , 'assets/shapes/primary/sprlv1.png', { frameWidth: 48, frameHeight: 48 });        
+        this.load.spritesheet('diamonds_2'    , 'assets/shapes/primary/sprlv2.png', { frameWidth: 48, frameHeight: 48 });
+        this.load.spritesheet('diamonds_3'    , 'assets/shapes/primary/sprlv3.png', { frameWidth: 48, frameHeight: 48 });
         
-        this.load.spritesheet('diamonds_sec_1', '/assets/shapes/secondary/sprlv1.png', { frameWidth: 48, frameHeight: 48 });
-        this.load.spritesheet('diamonds_sec_2', '/assets/shapes/secondary/sprlv2.png', { frameWidth: 48, frameHeight: 48 });
-        this.load.spritesheet('diamonds_sec_3', '/assets/shapes/secondary/sprlv3.png', { frameWidth: 48, frameHeight: 48 });
+        this.load.spritesheet('diamonds_sec_1', 'assets/shapes/secondary/sprlv1.png', { frameWidth: 48, frameHeight: 48 });
+        this.load.spritesheet('diamonds_sec_2', 'assets/shapes/secondary/sprlv2.png', { frameWidth: 48, frameHeight: 48 });
+        this.load.spritesheet('diamonds_sec_3', 'assets/shapes/secondary/sprlv3.png', { frameWidth: 48, frameHeight: 48 });
         //this.load.spritesheet('sett_sheet'      , '/assets/settings_sheet.png', { frameWidth: 192, frameHeight: 64 });
         
-        this.load.spritesheet('to_stars', '/assets/to_stars.png', { frameWidth: 48, frameHeight: 48 });
+        this.load.spritesheet('to_stars', 'assets/to_stars.png', { frameWidth: 48, frameHeight: 48 });
         
         this.load.spritesheet('boom', 'assets/explosion_sph.png', { frameWidth: 182, frameHeight: 206, endFrame: 16 });
         
         this.load.image('bg' , 'assets/bg.png');
         
-        this.load.image('u_placeh'               , '/assets/upp_placeholder.png');
-        this.load.image('s_placeh'               , '/assets/upp_placeholder2.png');
-        this.load.spritesheet('ok_sheet'         , '/assets/ok_sheet.png', { frameWidth: 128, frameHeight: 48 });  
-        this.load.spritesheet('to_main_sheet'    , '/assets/to_main_sheet.png', { frameWidth: 192, frameHeight: 48 }); 
-        this.load.image('playbutton'             , '/assets/button_play.png');
+        this.load.image('u_placeh'               , 'assets/upp_placeholder.png');
+        this.load.image('s_placeh'               , 'assets/upp_placeholder2.png');
+        this.load.spritesheet('ok_sheet'         , 'assets/ok_sheet.png', { frameWidth: 128, frameHeight: 48 });  
+        this.load.spritesheet('to_main_sheet'    , 'assets/to_main_sheet.png', { frameWidth: 192, frameHeight: 48 }); 
+        this.load.image('playbutton'             , 'assets/button_play.png');
         
         this.load.script('webfont', 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js');
         
-        this.load.image('spark', 'assets/particles/blue.png');
+        this.load.image('spark' , 'assets/particles/blue.png');
         this.load.image('spark1', 'assets/particles/red.png');
          
         this.load.audio('pick1', [
